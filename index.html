@@ -31,43 +31,47 @@
   </style>
 </head>
 
-<body class="bg-Cream h-screen flex items-center">
+<body>
 
-  <div class="container px-6 mx-auto rounded-xl flex flex-col items-stretch md:flex-row md:h-fit md:w-1/2">
-    <img class="rounded-t-xl md:rounded-t-none md:rounded-l-xl md:w-1/2" id="image" src="" alt="">
-    <script>
-      if(innerWidth < 768){
-        document.getElementById("image").src="./images/image-product-mobile.jpg";
-      } else {
-        document.getElementById("image").src="./images/image-product-desktop.jpg";
-      }
-    </script>
-    
-    <div class="px-6 py-6 text-left bg-White w-full  rounded-b-xl md:rounded-b-none md:rounded-r-xl md:w-1/2 md:px-8 md:py-8">
-      <p class="py-3 text-DarkGrayishBlue md:text-sm" style="font-family: Montserrat;">P E R F U M E</p>
-      <p class="text-4xl  py-3" style="font-family: Fraunces;">
-        Gabrielle Essence Eau De Parfum
-      </p>
-      <p class="text-DarkGrayishBlue py-3 text-sm md:text-lg" style="font-family: Montserrat;">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the house of CHANEL.
-      </p>
-      <div class="py-3 flex items-center w-3/4 justify-between">
-        <p class="text-4xl text-DarkCyan" style="font-family: Fraunces;">$149.99</p>
-        <p class="" style="font-family: Montserrat;text-decoration: line-through;">$169.99</p>
-      </div>
+  <div class="bg-Cream h-screen flex items-center">
+    <div class="container px-6 mx-auto rounded-xl flex flex-col items-stretch md:flex-row md:h-fit md:w-1/2">
+      <img class="rounded-t-xl md:rounded-t-none md:rounded-l-xl md:w-1/2" id="image" src="" alt="">
+      <script>
+        if (innerWidth < 768) {
+          document.getElementById("image").src = "./images/image-product-mobile.jpg";
+        } else {
+          document.getElementById("image").src = "./images/image-product-desktop.jpg";
+        }
+      </script>
 
-      <div class="py-3 text-center flex justify-center items-center bg-DarkCyan rounded-lg md:mt-6">
-        <span class="w-4 h-4 mx-2" style="background-image: url('./images/icon-cart.svg'); background-size: 100%; background-position: center center;"></span>
-        <p class="text-White font-bold mx-2" style="font-family: Montserrat;">Add to Cart</p>
+      <div
+        class="px-6 py-6 text-left bg-White w-full  rounded-b-xl md:rounded-b-none md:rounded-r-xl md:w-1/2 md:px-8 md:py-8">
+        <p class="py-3 text-DarkGrayishBlue md:text-sm" style="font-family: Montserrat;">P E R F U M E</p>
+        <p class="text-4xl  py-3" style="font-family: Fraunces;">
+          Gabrielle Essence Eau De Parfum
+        </p>
+        <p class="text-DarkGrayishBlue py-3 text-sm md:text-lg" style="font-family: Montserrat;">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the house of
+          CHANEL.
+        </p>
+        <div class="py-3 flex items-center w-3/4 justify-between">
+          <p class="text-4xl text-DarkCyan" style="font-family: Fraunces;">$149.99</p>
+          <p class="" style="font-family: Montserrat;text-decoration: line-through;">$169.99</p>
+        </div>
+
+        <div class="py-3 text-center flex justify-center items-center bg-DarkCyan rounded-lg md:mt-6">
+          <span class="w-4 h-4 mx-2"
+            style="background-image: url('./images/icon-cart.svg'); background-size: 100%; background-position: center center;"></span>
+          <p class="text-White font-bold mx-2" style="font-family: Montserrat;">Add to Cart</p>
+        </div>
       </div>
     </div>
+
   </div>
-
-
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Iamrealbhuvi</a>.
-  </div> -->
+  </div>
 </body>
 
 </html>
